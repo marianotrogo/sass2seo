@@ -30,6 +30,9 @@
     grid-area: logo;
     background-color: white;
 }
+
+
+
 .item-menu{
     position: sticky;
     top: 10px;
@@ -59,6 +62,12 @@
 .contenedor .item-logo img{
     width: 200px;
     height: 200px;
+}
+
+.contenedor .item-logo img:hover{
+    width: 250px;
+    height: 250px;
+    transition: 4s;
 }
 
 .contenedor .item-menu ul{
