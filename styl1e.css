@@ -193,12 +193,27 @@ main{
     padding: 5px;
 }
 
+.form textarea:focus{
+    background: linear-gradient(to right, #fbb5bf, #d7c89d);
+    color: white;
+    width: 350px;
+    height: 150px;
+    transition: 1s;
+    font-weight: bold;
+    border: none;
+}
+
 .form input[type=submit]{
     background-color: #d7c89d;
     color: white;
     font-weight: bold;
     font-size: medium;
 }
+
+.form input[type=submit]:hover{
+    background: linear-gradient(to right, #fbb5bf, #d7c89d);
+}
+
 
 /*Cuidados del Producto*/
 
