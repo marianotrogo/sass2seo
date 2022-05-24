@@ -154,6 +154,10 @@
     height: auto;
 }
 
+.prodImages img:hover{
+    transform: scale(1.2);
+}
+
 main{
     height: 100vh;
 }
