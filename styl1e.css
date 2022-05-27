@@ -35,15 +35,22 @@
     background-color: #fbb5bf !important;
 }
 
-#navbarNav a{
+#navbarNavDropdown a{
     color:white !important;
+    font-weight: bold !important;
 }
 
-#navbarNav a:hover{
-    color:white !important;
-    transition: 2s;
+#navbarNavDropdown li:hover{
+    border-top: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+    transition: .2s;
+
+  
 }
 
+.dropdown-menu{
+    background-color: #fbb5bf !important;
+}
 
 .carousel-inner{
     height: 100vh !important;
