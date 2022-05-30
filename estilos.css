@@ -4,39 +4,9 @@
     font-family: 'Plus Jakarta Sans', sans-serif !important; 
     
 }
-
-.container{
-    display: grid;
-    grid-template-areas:
-        "logo"
-        "header"
-        "main"
-        "footer";
-}
-/*--------Areas Grid----------*/
-.header{
-    grid-area: header;
-    
-}
-
-.main{
-    grid-area: main;
-   
-}
-
-.footer{
-    grid-area: footer;
-    background-color: #fbb5bf !important;
-}
-/*--------logo----------*/
-.item-logo{
-    display: flex;
-    justify-content: center;
-}
-.item-logo img{
-    width: 150px;
-    height: 150px;
-
+.logo{
+    width: 200px;
+    height: 200px;
 }
 
 /*-----------Navegador---------*/
@@ -44,13 +14,14 @@
 .bg{
     background-color: #fbb5bf !important;
 }
-
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+}
 .nav-link{
     color: white !important;
     font-weight: bold !important;
     font-size: 1.2em !important;
-    position: sticky;
-    top: 0;
 }
 
 .nav-item:hover{
@@ -65,34 +36,27 @@
     background-color: #d7c89d !important;
 }
 
-/*Footer*/
-
-.ms-3 .bi, .text-muted{
-   font-size: 1.2em;
-   color: white;
-   text-decoration: none;
-   text-align: center;
-   padding: 5px;
-}
+/*----------Footer----------*/
 
 .footer{
-    height: 150px;
+    background-color: #ecebeb !important;
 }
 
-.footer .row > div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 15px;
-    color: white;
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-.medPagos >li{
+.footer, li, a, i{
     list-style: none;
-    border-left: 1px solid white;
-    margin: 5px;
-    padding-left: 5px;
+    color: rgb(48, 47, 47) !important;
+    text-decoration: none !important;
+    padding: 5px;
     
+}
+
+.footer + a:hover{
+    text-decoration: dashed;
+    color: blue;
+}
+
+
+#spaceFoot{
+    width: 100vw;
+    height: 2vh;
 }
