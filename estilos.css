@@ -60,3 +60,30 @@
     width: 100vw;
     height: 2vh;
 }
+
+#separador{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador .content{
+    width: 150%;
+    height: 30px;
+    
+    
+
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+ 
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
