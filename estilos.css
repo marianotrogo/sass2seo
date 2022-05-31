@@ -4,17 +4,6 @@
     font-family: 'Plus Jakarta Sans', sans-serif !important; 
     
 }
-.logo{
-    width: 200px;
-    height: 200px;
-}
-
-/*-----------Navegador---------*/
-
-.bg{
-    background-color: #fbb5bf !important;
-}
-
 
 .nav-link{
     color: white !important;
@@ -34,7 +23,7 @@
     background-color: #d7c89d !important;
 }
 
-/*----------Footer----------*/
+
 
 .footer{
     background-color: #ecebeb !important;
@@ -57,4 +46,46 @@
 #spaceFoot{
     width: 100vw;
     height: 2vh;
+}
+
+#separador{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador .content{
+    width: 150%;
+    height: 30px;
+}
+
+.bg-warning{
+    background: linear-gradient(rgb(208, 206, 206), white);
+    border-top:.5px solid rgb(127, 127, 127);
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+ 
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+
+.bg{
+    background-color: #fbb5bf;
 }
