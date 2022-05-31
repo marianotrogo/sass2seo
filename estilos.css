@@ -88,6 +88,7 @@
 
 .bg{
     background-color: #fbb5bf;
+<<<<<<< HEAD
 }
 
 input, textarea{
@@ -100,4 +101,6 @@ input, textarea{
 .textarea:active{
     height: 300px;
     background: linear-gradient(grey, white);
+=======
+>>>>>>> modindex
 }
