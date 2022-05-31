@@ -2,139 +2,127 @@
 <html >
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../styl1e.css">
+    <link rel="stylesheet" href="../estilos.css" class="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7fb0acaf0b.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Contacto</title>
 </head>
 <body>
-    <div class="contenedor">
-        <header class="item">
-            <div class="item-logo"><a href="index.html"><img src="../images/logo.jfif" alt=""></a></div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg">
-                <div class="container-fluid">
-                  <!--<a class="navbar-brand" href="#">Inicio</a>-->
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                          </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="cuidadosdelproducto.html">Cuidados del Producto</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="quienessomos.html">Quienes Somos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-        <main>
-            <main class="item-main__Form">
-                <form class="form">
-                    <div><input type="text" name="" id="" placeholder="Escribe tu Nombre y Apellido..."></div>
-                    <div><input type="text" name="" id="" placeholder="Numero de Contacto..."></div>
-                    <div><input type="email" name="" id="" placeholder="Email..."></div>
-                    <div><textarea name="" id="" placeholder="Escribe un breve comentario..."></textarea></div>
-                    <div><input type="submit" name="" id=""></div>
-                </form>
-            </main>
-        
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div class="col-md-6 d-flex align-items-center">    
-                  <span class="mb-3 mb-md-0 text-muted">© Todos los derechos reservados, Mariano Trogo-CoderHouse</span>
-                </div> 
-                <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-                  <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="5" height="5"><use xlink:href="#twitter"><i class="fa-brands fa-twitter"></i> </use></svg></a></li>
-                  <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="5" height="5"><use xlink:href="#instagram"><i class="fa-brands fa-instagram"></i> </use></svg></a></li>
-                  <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="5" height="5"><use xlink:href="#facebook"><i class="fa-brands fa-facebook"></i></use></svg></a></li>
-                </ul>
-              </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!--<div class="contenedor">
-    <header class="item">
-        <div class="item-logo"><a href="../index.html"><img src="../images/logo.jfif" alt=""></a></div>
-        <div class="item-menu">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a>
-                    <ul class="subMenu">
-                        <li><a href="">Plata 925</a></li>
-                        <li><a href="">Acero Blanco</a></li>
-                        <li><a href="">Accesorios</a></li>
-                    </ul>
-                </li>    
-                <li><a href="cuidadosdelproducto.html">Cuidados del Producto</a></li>
-                <li><a href="quienessomos.html">Quienes Somos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+          <img src="../images/logo.jfif" alt="" width="150" class="rounded-circle"></a>
+        <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="cuidadosdelproducto.html">Cuidados del Producto</a></li>
+            <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes Somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
         </div>
-        <div class="item-menu__responsive">
-            <div class="button__responsive fa-solid fa-bars"> </div>
-                <ul class="responsiveNav">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a>
-                        <ul class="subMenu__responsive">
-                            <li><a href="">Plata 925</a></li>
-                            <li><a href="">Acero Blanco</a></li>
-                            <li><a href="">Accesorios</a></li>
-                        </ul>
-                    </li>    
-                    <li><a href="cuidadosdelproducto.html">Cuidados del Producto</a></li>
-                    <li><a href="quienessomos.html">Quienes Somos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
         </div>
+    </nav>
     </header>
-    <main class="item-main__Form">
-        <form class="form">
-            <div><input type="text" name="" id="" placeholder="Escribe tu Nombre y Apellido..."></div>
-            <div><input type="text" name="" id="" placeholder="Numero de Contacto..."></div>
-            <div><input type="email" name="" id="" placeholder="Email..."></div>
-            <div><textarea name="" id="" placeholder="Escribe un breve comentario..."></textarea></div>
-            <div><input type="submit" name="" id=""></div>
-        </form>
+    <main class="container py-5">
+      <div class="row justify-content-md-center">
+        <div class="col-sm form">
+          <div class="col py-3"><input type="text" name="" id="" placeholder="Escribe tu Nombre y Apellido..."></div>
+          <div class="col py-3"><input type="text" name="" id="" placeholder="Numero de Contacto..."></div>
+          <div class="col py-3"><input type="email" name="" id="" placeholder="Email..."></div>
+          <div class="col py-3"><textarea name="" id="" placeholder="Escribe un breve comentario..."></textarea></div>
+          <div class="col py-3"><button class="btn btn-lg rounded-pill btn-warning w-10 p-3 shadow-sm font-weight-bold bg-secondary">Enviar</button></div>
+        </div>
+      </div>
     </main>
-    <footer class="item-footer">
-        <div class="foot">SEGUINOS EN:
-             <ul class="red">
-                 <li><i class="fa-brands fa-instagram"></i><a href="https:/www.instagram.com">INSTAGRAM</a></li>
-             </ul>
+    <div id="separador">
+      <div class="content bg-warning"></div>
+    </div>
+    <div id="medio">
+      <div class="container-md p-5">
+        <div class="row pt-5">
+          <h3 class="text-center pb-5 pt-5 h1">Secciones</h3>
         </div>
-        <div class="foot">ENVIOS Y RETIROS:
-            <ul>
-                <li><p>Envios a domicilio por cadeteria el costo varia depende la zona.</p>
-                </li>
-                <li><p>
-                     Envios en Lules dias Sabados SIN CARGO
-                </p>
-                </li>
-                <li>Retiros en barrio sur General Paz 840</li>
-                <li></li>
-            </ul>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 blur">
+              <img src="../images/joyas/joya13.jfif" class="card-img-top" alt="...">
+                <div class="center">Sale</div>   
+            </div>   
+          </div>
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 blur">
+              <img src="../images/joyas/joya12.jfif" class="card-img-top" alt="...">
+                <div class="center">Productos</div>
+              </div>    
+          </div>
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 blur">
+              <img src="../images/joyas/joya14.jfif" class="card-img-top" alt="...">
+                <div class="center">Nuevos</div>
+            </div>   
+          </div>
+          </div>
         </div>
-        <div class="foot">MEDIOS DE PAGOS
-             <ul>
-                 <li>EFECTIVO</li>
-                 <li>TRANSFERENCIA BANCARIA</li>
-                 <li>TARJETA DE CREDITO Y DEBITO</li>
-             </ul>
+      </div>
+      <div id="separador">
+        <div class="content bg-warning"></div>
+      </div>
+      <footer id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+          <div class="row  justify-content-md-center">
+            <div class="col text-center">
+              <a href="#">
+                <button class="btn btn-lg rounded-pill btn-warning w-10 p-3 shadow-sm font-weight-bold bg-secondary">Contactanos</button>
+              </a>
+            </div>
+          </div>
+          <div class="row justify-content-md-center py-5">
+            <div class="col font-weight.light">
+              <p>Medios de Pagos</p>
+              <ul>
+                <li>Efectivo</li>
+                <li>Tarjeta de Credito</li>
+                <li>Transferencia Bancaria</li>
+              </ul>
+            </div>
+            <div class="col font-weight.light">
+              <p>Envios</p>
+              <ul>
+                <li>Lules: Lun a Vie</li>
+                <li>SMT: Lun a Vie</li>
+                <li>Retiros: Lun a Vie</li>
+              </ul>
+            </div>
+            <div class="col font-weight.light">
+              <p>Seguinos en:</p>
+              <ul>
+                <li><a href="https://Instagram.com"><i class="bi bi-instagram"></i>Instagram</a></li>    
+              </ul>
+            </div>
+          </div>
         </div>
-     </footer>-->
-</div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+   
+           
+    
+   
+
 </body>
 </html>
