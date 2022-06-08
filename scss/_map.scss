@@ -1,0 +1,8 @@
+$imagen: (
+    ancho: 18rem,
+    borde: .5px solid #000,
+)
+
+#tamaño{
+    width: map-get($imagen, $key: );
+}
