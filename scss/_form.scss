@@ -6,8 +6,10 @@ input, textarea{
     padding: 5px;
 }
 
-.textarea:active{
-    height: 300px;
-    background: linear-gradient(grey, white);
+.textarea{
+    &:active{
+        height: 300px;
+        background: linear-gradient(grey, white);
+    }    
 
 }
