@@ -1,8 +1,47 @@
 $imagen: (
     ancho: 18rem,
     borde: .5px solid #000,
-)
+);
 
-#tamaño{
-    width: map-get($imagen, $key: );
+$texto: (
+    tamañoTexto: 100px,
+    negrita: bolder,
+    colorTexto: black,
+    colorLink: white,
+
+);
+
+$formulario: (
+    ancho: 300px,
+    largo: 60px,
+    paddingFormulario: 5px,
+    borde: 2px solid $mainColor,
+
+);
+
+$tamañoCard:(
+    tamañoCard: 150px,
+    margen: 0,
+    padin: 5px,
+    fondo: #5555,
+    justificado: center,
+    displayCard: block,
+);
+
+#texto{
+    width: map-get($texto, tamañoTexto) !important;
+    font-weight: map-get($texto, negrita );
 }
+
+.nav-link{
+    color: map-get($texto, colorLink) !important;
+}
+
+
+input, textarea{
+    width: map-get($formulario, ancho);
+    height: map-get($formulario, largo);
+    padding: map-get($formulario, paddingFormulario);
+    border: map-get($formulario, borde);
+}
+

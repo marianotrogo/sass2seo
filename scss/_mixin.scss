@@ -1,0 +1,8 @@
+@mixin sizes($colorPrecio, $bkgPrecio) {
+    color: $colorPrecio;
+    background-color: $bkgPrecio;
+ }
+ #precio {
+    @include sizes(black, #ff99);
+ }
+ 
